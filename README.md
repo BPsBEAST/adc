@@ -7,7 +7,7 @@ Site de apresentação de estética avançada com estética **marfim, branco e d
 - \`index.html\` — página principal, SEO base, secções, FAQ e formulário de preparação de mensagens.
 - \`styles.css\` — identidade visual, layout, animações suaves e adaptação mobile.
 - \`script.js\` — menu mobile, animações, seleção de tratamento e mensagem copiável.
-- \`assets/ana-duraes.jpg\` — retrato enviado para o projeto.
+- \`assets/ana-duraes.webp\` — retrato enviado para o projeto.
 - \`favicon.svg\` — ícone com monograma.
 
 Não precisa de compilação ou dependências JavaScript. Pode ser publicado em GitHub Pages a partir da raiz da branch \`main\`. As fontes Google têm fallback local.
