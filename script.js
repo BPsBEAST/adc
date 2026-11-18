@@ -86,4 +86,23 @@
       status.textContent = "Selecione o texto acima e copie-o.";
     }
   });
+
+  // Fotografias opcionais: preserva o retrato atual até serem colocados
+  // assets/ana-natural.webp e assets/ana-diploma.webp no repositório.
+  document.querySelectorAll("img[data-optional-src]").forEach(target => {
+    const next = target.getAttribute("data-optional-src");
+    if (!next) return;
+    const candidate = new Image();
+    candidate.onload = () => {
+      target.src = next;
+      target.removeAttribute("hidden");
+      const placeholder = target.id === "diploma-photo"
+        ? document.getElementById("diploma-placeholder")
+        : null;
+      if (placeholder) placeholder.hidden = true;
+    };
+    candidate.onerror = () => {};
+    candidate.src = next;
+  });
+
 })();
