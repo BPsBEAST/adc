@@ -29,3 +29,12 @@ Os textos das áreas de cuidado e as perguntas frequentes estão em \`index.html
 ## Publicação
 
 Em **Settings → Pages → Build and deployment**, selecionar **Deploy from a branch**, branch \`main\` e pasta \`/ (root)\`. Após a publicação poderá ficar acessível em \`https://bpsbeast.github.io/adc/\`, caso o GitHub Pages seja ativado para este repositório.
+
+
+## Novas fotografias da Ana
+
+Foi criada uma secção editorial **Formação**, que destaca a Licenciatura em Biomedicina na CESPU. A imagem com o diploma será exibida automaticamente quando existir `assets/ana-diploma.webp`; até lá é apresentado um painel tipográfico sem fotografia inventada.
+
+O retrato do topo mudará automaticamente para `assets/ana-natural.webp` quando esse ficheiro existir. Se não existir, continua a aparecer a fotografia `ana-duraes.webp` para evitar imagens partidas.
+
+**Atenção:** as duas novas fotografias enviadas na conversa como imagens incorporadas não estavam disponíveis como ficheiros acessíveis no ambiente de publicação; por isso não foram ainda copiadas para o repositório. Para concluir a integração, devem ser anexadas como ficheiros JPG/PNG originais (ou adicionadas com os nomes indicados) e convertidas para WebP.
